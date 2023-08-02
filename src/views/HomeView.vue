@@ -64,17 +64,12 @@
         </div>
     </div>
 </template>
-<script lang="ts">
+<script lang="ts" setup>
 import { ref } from 'vue'
+const paymentMethod = ref('mobile');
 
-export default {
-    setup() {
-        const paymentMethod = ref('');
-        return {
-            paymentMethod
-        }
-    }
-} 
+
+
 </script>
 <style scoped>
 .wrapper {
