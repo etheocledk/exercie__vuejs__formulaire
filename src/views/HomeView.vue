@@ -56,7 +56,7 @@
                 </div>
             </div>
                 <div class="fermeture" v-else-if="paymentMethod === 'carte'">
-                    <h1>Fermeture</h1>
+                    <h1>Pas encore disponible</h1>
                 </div>
                 <button>Payer 12000Fcfa</button>
                 <p>Paiement sécurisé fournit par <a href="#">kkiapay</a></p>
@@ -67,9 +67,6 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 const paymentMethod = ref('mobile');
-
-
-
 </script>
 <style scoped>
 .wrapper {
